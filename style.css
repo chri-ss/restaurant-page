@@ -1,0 +1,16 @@
+#content {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    width: 20%
+}
+
+.blurb-and-cat{
+    display: flex;
+}
