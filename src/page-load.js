@@ -10,11 +10,12 @@ const pageLoad = () => {
     navWrapper.classList.add('nav-wrapper');
     let nav = document.createElement('ul');
 
-    let listItems = ['Menu', 'Services', 'Reviews', 'About', 'Contact'];
+    let listItems = ['Home', 'Menu', 'Services', 'Reviews', 'About', 'Contact'];
 
-    for(let i = 0; i < 5; ++i)
+    for(let i = 0; i < 6; ++i)
     {
         let listElement = document.createElement('li');
+        listElement.classList.add(`${listItems[i]}`);
         let navLink = document.createElement('a');
         navLink.textContent = listItems[i];
         listElement.appendChild(navLink);

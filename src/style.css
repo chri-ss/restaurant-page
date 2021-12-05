@@ -67,10 +67,11 @@ li {
     border-radius: 5px;
     height: 3rem;
     width: 8rem;
+    cursor: pointer;
 }
 
 li:hover {
-    border: 5px solid black;
+    border: 5px solid rgb(36, 19, 0);
     box-sizing: border-box;
 }
 
