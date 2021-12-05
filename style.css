@@ -15,7 +15,7 @@ body {
     align-items: center;
     width: 80%;
     overflow-wrap: anywhere;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .header {
@@ -45,10 +45,29 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
 
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./3.jpg');
+    border: 2px solid rgb(36, 19, 0);
+    border-radius: 5px;
+    height: 3rem;
+    width: 8rem;
 }
 
 .blurb-and-cat{
     display: flex;
     width: 50%;
+    margin-top: 30%;
+}
+
+.blurb {
+    background: url('./3.jpg');
+    padding: 4rem;
+    border: 2px solid rgb(36, 19, 0);
+    border-radius: 5px;
+    color: rgb(36, 19, 0);
 }
