@@ -31,12 +31,15 @@ body {
     align-items: center;
     height: 10vh;
     font-size: 50px;
-    header: MyFont, cursive;
+    font-family: MyFont, cursive;
+    color: #fff;
 }
 
 .sidebar {
     display: flex;
     justify-content: center;
+    font-family: MyFont, cursive;
+    font-size: 30px;
     background-color:rgba(83, 68, 54, 0.3);
     width: 20%;
     height: 100%;
@@ -66,10 +69,16 @@ li {
     width: 8rem;
 }
 
+li:hover {
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
 .blurb-and-cat{
     display: flex;
     width: 50%;
     margin-top: 30%;
+    font-family: MyFont, cursive;
 }
 
 .blurb {
