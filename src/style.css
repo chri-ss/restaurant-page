@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Playball.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
 body {
     background: url('./2016_010516_Yawning_Portal_TH.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -24,6 +31,7 @@ body {
     align-items: center;
     height: 10vh;
     font-size: 50px;
+    header: MyFont, cursive;
 }
 
 .sidebar {
