@@ -1,9 +1,8 @@
-const pageLoad = () => {
+export function pageLoad() {
 
     const contentContainer = document.getElementById('content');
-
-    const makeSidebar = (() => {
     
+    //sidebar
     let sideBar = document.createElement('div');
     sideBar.classList.add('sidebar');
     let navWrapper = document.createElement('div');
@@ -24,9 +23,8 @@ const pageLoad = () => {
     navWrapper.appendChild(nav);
     sideBar.appendChild(navWrapper);
     contentContainer.appendChild(sideBar);
-})();
 
-const makeMain = (() => {
+    //main
     let main = document.createElement('div');
     let header = document.createElement('div');
     header.classList.add('header');
@@ -44,9 +42,6 @@ const makeMain = (() => {
     main.appendChild(header);
     main.appendChild(blurbAndCat);
     contentContainer.appendChild(main);
-})();
-
-return { makeSidebar, makeMain };
 }
 
-export default pageLoad();  
+//export default pageLoad();

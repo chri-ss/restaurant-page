@@ -1,0 +1,22 @@
+export function homeLoad() {
+
+    const contentContainer = document.querySelector('.main-container');
+    
+    let main = document.createElement('div');
+    let header = document.createElement('div');
+    header.classList.add('header');
+    header.textContent = 'The Bargewright Inn';
+    main.classList.add('main-container');
+    let blurbAndCat = document.createElement('div');
+    blurbAndCat.classList.add('blurb-and-cat');
+    let blurb = document.createElement('div');
+    blurb.classList.add('blurb');
+    blurb.textContent = 'Situated atop historic Jundar\'s Hill, the Bargewright Inn is your one stop shop for good eats, cold ale, and expert livestock and pack animal boarding.'
+    let cat = document.createElement('div');
+    cat.classList.add('cat');
+    blurbAndCat.appendChild(blurb);
+    blurbAndCat.appendChild(cat);
+    main.appendChild(header);
+    main.appendChild(blurbAndCat);
+    contentContainer.appendChild(main);
+}
