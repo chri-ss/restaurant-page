@@ -24,6 +24,8 @@ body {
     width: 80%;
     overflow-wrap: anywhere;
     font-size: 24px;
+    font-family: MyFont, cursive;
+    margin-left: 20%;
 }
 
 .header {
@@ -44,6 +46,7 @@ body {
     background-color:rgba(83, 68, 54, 0.3);
     width: 20%;
     height: 100%;
+    position: fixed;
 }
 
 .nav-wrapper {
@@ -92,7 +95,27 @@ li:hover {
 }
 
 .menu-div {
-    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
     background: url('./3.jpg');
+    border: 2px solid rgb(36, 19, 0);
+    border-radius: 5px;
+    color: rgb(36, 19, 0);
+    margin-top: 10%;
+}
+
+.breakfast, .lunch, .dinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.breakfast-header, .lunch-header, .dinner-header {
+    padding: 2rem;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
 }

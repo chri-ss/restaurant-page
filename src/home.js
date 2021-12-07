@@ -19,4 +19,5 @@ export function homeLoad() {
     main.appendChild(header);
     main.appendChild(blurbAndCat);
     contentContainer.appendChild(main);
+    main.style.marginLeft = 0;
 }
