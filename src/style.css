@@ -93,7 +93,7 @@ li:hover {
     font-size: 32px;
 }
 
-.menu-div, .services-div {
+.menu-div, .services-div, .reviews-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,6 +113,14 @@ li:hover {
     padding-top: 2rem;
 }
 
+.reviews-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
 .breakfast, .lunch, .dinner, .drinks {
     display: flex;
     flex-direction: column;
@@ -121,7 +129,7 @@ li:hover {
 }
 
 .breakfast-header, .lunch-header, .dinner-header, .drinks-header, .auction-header,
- .animal-boarding-header , .horseshoeing-header{
+ .animal-boarding-header , .horseshoeing-header, .reviews-header {
     padding: 2rem;
     font-size: 60px;
     font-weight: bold;
@@ -151,4 +159,15 @@ li:hover {
 .horse-image {
     width: 12vw;
     height: 12vh;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+}
+
+.quotee {
+    text-align: right;
 }

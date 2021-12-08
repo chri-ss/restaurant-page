@@ -84,7 +84,7 @@ export function menuLoad() {
     dinner.appendChild(dinnerHeader);
     dinner.appendChild(dinnerImage); 
 
-    let dinnerItems = ['Grilled wild boar chops - 10sp', 'Stuffed trout - 8sp', 'Whole Duck - 12sp'];
+    let dinnerItems = ['Grilled wild boar chops - 1gp', 'Stuffed trout - 8sp', 'Whole Duck - 12sp'];
 
     for(let i = 0; i < dinnerItems.length; ++i)
     {
