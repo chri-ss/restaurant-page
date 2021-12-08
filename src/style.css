@@ -12,7 +12,7 @@ body {
 
 #content {
     display: flex;
-    box-sizing: content-box;
+    box-sizing: border-box;
     height: 100vh;
 }
 
@@ -22,10 +22,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 80%;
-    overflow-wrap: anywhere;
     font-size: 24px;
     font-family: MyFont, cursive;
     margin-left: 20%;
+    margin: auto auto auto 20%;
 }
 
 .header {
@@ -79,43 +79,66 @@ li:hover {
     box-sizing: border-box;
 }
 
-.blurb-and-cat{
+.blurb {
     display: flex;
-    width: 50%;
+
     margin-top: 20%;
     font-family: MyFont, cursive;
-}
-
-.blurb {
     background: url('./3.jpg');
+    width: 40vw;
     padding: 4rem;
     border: 2px solid rgb(36, 19, 0);
     border-radius: 5px;
     color: rgb(36, 19, 0);
+    font-size: 32px;
 }
 
-.menu-div {
+.menu-div, .services-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 60%;
     background: url('./3.jpg');
     border: 2px solid rgb(36, 19, 0);
     border-radius: 5px;
     color: rgb(36, 19, 0);
-    margin-top: 10%;
+    box-sizing: border-box;
+    font-size: 32px;
+    padding-bottom: 5%;
+    text-align: center;
 }
 
-.breakfast, .lunch, .dinner {
+.breakfast, .lunch, .dinner, .drinks {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.breakfast-header, .lunch-header, .dinner-header {
+.breakfast-header, .lunch-header, .dinner-header, .drinks-header, .auction-header,
+ .animal-boarding-header , .horseshoeing-header{
     padding: 2rem;
     font-size: 60px;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.drink-image {
+    width: 10vw;
+    height: 15vh;
+}
+
+.breakfast-image {
+    width: 10vw;
+    height: 10vh;
+}
+
+.lunch-image {
+    width: 10vw;
+    height: 10vw;
+}
+
+.dinner-image {
+    width: 12vw;
+    height: 12vh;
 }

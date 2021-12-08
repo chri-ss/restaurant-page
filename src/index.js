@@ -1,6 +1,7 @@
 import {pageLoad} from './page-load.js';
 import{homeLoad} from './home.js';
 import {menuLoad} from './menu.js';
+import {servicesLoad} from'./services.js';
 import './style.css';
 import './reset.css';
 
@@ -31,4 +32,12 @@ menu.addEventListener('click', () => {
         mainContainer.removeChild(mainContainer.firstChild);
     }
     menuLoad();
+});
+
+services.addEventListener('click', () => {
+    while(mainContainer.firstChild)
+    {
+        mainContainer.removeChild(mainContainer.firstChild);
+    }
+    servicesLoad();
 });
