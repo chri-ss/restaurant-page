@@ -109,7 +109,8 @@ li:hover {
 }
 
 .services-div {
-    gap: 3rem;
+    gap: 1rem;
+    padding-top: 2rem;
 }
 
 .breakfast, .lunch, .dinner, .drinks {
@@ -143,6 +144,11 @@ li:hover {
 }
 
 .dinner-image {
+    width: 12vw;
+    height: 12vh;
+}
+
+.horse-image {
     width: 12vw;
     height: 12vh;
 }

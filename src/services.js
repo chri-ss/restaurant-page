@@ -1,8 +1,15 @@
+import horseIcon from './horse.png';
+
 export function servicesLoad() {
     const mainContainer = document.querySelector('.main-container');
     const servicesDiv = document.createElement('div');
     servicesDiv.classList.add('services-div');
-    servicesDiv.style.margin = '10% auto auto 20%'
+    servicesDiv.style.margin = '10% auto auto 20%';
+
+    const horseImage = new Image();
+    horseImage.src = horseIcon;
+    horseImage.classList.add('horse-image');
+    servicesDiv.appendChild(horseImage);
 
     const auctionHeader = document.createElement('h2');
     auctionHeader.textContent = 'Livestock Auction';
