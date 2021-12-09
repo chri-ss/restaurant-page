@@ -11,8 +11,6 @@ import './reset.css';
 pageLoad();
 
 const mainContainer = document.querySelector('.main-container');
-const header = document.querySelector('.header');
-const blurbAndCat = document.querySelector('.blurb-and-cat');
 
 const home  = document.querySelector('.Home');
 const menu = document.querySelector('.Menu');

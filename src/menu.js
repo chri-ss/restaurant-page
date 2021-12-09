@@ -1,7 +1,7 @@
-import drinkIcon from './drinks.png';
-import breakfastIcon from './breakfast.png';
-import lunchIcon from './lunch.png';
-import dinnerIcon from './dinner.png';
+import drinkIcon from './images/drinks.png';
+import breakfastIcon from './images/breakfast.png';
+import lunchIcon from './images/lunch.png';
+import dinnerIcon from './images/dinner.png';
 
 export function menuLoad() {
     const mainContainer = document.querySelector('.main-container');

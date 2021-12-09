@@ -1,4 +1,4 @@
-import horseIcon from './horse.png';
+import horseIcon from './images/horse.png';
 
 export function servicesLoad() {
     const mainContainer = document.querySelector('.main-container');
