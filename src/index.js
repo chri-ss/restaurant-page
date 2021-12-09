@@ -1,10 +1,10 @@
-import {pageLoad} from './page-load.js';
-import{homeLoad} from './home.js';
-import {menuLoad} from './menu.js';
-import {servicesLoad} from './services.js';
-import {reviewsLoad} from './reviews.js';
-import {aboutLoad} from './about.js';
-import {contactLoad} from './contact.js';
+import {pageLoad} from './scripts/page-load.js';
+import{homeLoad} from './scripts/home.js';
+import {menuLoad} from './scripts/menu.js';
+import {servicesLoad} from './scripts/services.js';
+import {reviewsLoad} from './scripts/reviews.js';
+import {aboutLoad} from './scripts/about.js';
+import {contactLoad} from './scripts/contact.js';
 import './style.css';
 import './reset.css';
 
