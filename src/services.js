@@ -13,7 +13,7 @@ export function servicesLoad() {
 
     const auctionHeader = document.createElement('h2');
     auctionHeader.textContent = 'Livestock Auction';
-    auctionHeader.classList.add('auction-header');
+    auctionHeader.classList.add('content-header');
     servicesDiv.appendChild(auctionHeader);
 
     const auctionInfo = document.createElement('p');
@@ -22,7 +22,7 @@ export function servicesLoad() {
 
     const animalBoardingHeader = document.createElement('h2');
     animalBoardingHeader.textContent = 'Animal Boarding';
-    animalBoardingHeader.classList.add('animal-boarding-header');
+    animalBoardingHeader.classList.add('content-header');
     servicesDiv.appendChild(animalBoardingHeader);
 
     const animalBoardingInfo = document.createElement('p');
@@ -31,7 +31,7 @@ export function servicesLoad() {
 
     const horseshoeingHeader = document.createElement('h2');
     horseshoeingHeader.textContent = 'Professional Horseshoeing';
-    horseshoeingHeader.classList.add('horseshoeing-header');
+    horseshoeingHeader.classList.add('content-header');
     servicesDiv.appendChild(horseshoeingHeader);
 
     const horseshoeingInfo = document.createElement('p');

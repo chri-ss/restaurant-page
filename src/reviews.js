@@ -6,7 +6,7 @@ export function reviewsLoad() {
     reviewsDiv.style.margin = '10% auto auto 20%';
 
     const reviewsHeader = document.createElement('h2');
-    reviewsHeader.classList.add('reviews-header');
+    reviewsHeader.classList.add('content-header');
     reviewsHeader.textContent = 'Reviews';
     reviewsDiv.appendChild(reviewsHeader);
 

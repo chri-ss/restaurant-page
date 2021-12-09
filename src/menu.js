@@ -16,7 +16,7 @@ export function menuLoad() {
     const drinkImage = new Image();
     drinkImage.src = drinkIcon;
     drinkImage.classList.add('drink-image');
-    drinksHeader.classList.add('drinks-header');
+    drinksHeader.classList.add('content-header');
     drinksHeader.textContent = 'Drinks';
     drinks.appendChild(drinksHeader);
     drinks.appendChild(drinkImage);
@@ -37,7 +37,7 @@ export function menuLoad() {
     const breakfastImage = new Image();
     breakfastImage.src = breakfastIcon;
     breakfastImage.classList.add('breakfast-image');
-    breakfastHeader.classList.add('breakfast-header');
+    breakfastHeader.classList.add('content-header');
     breakfastHeader.textContent = 'Breakfast';
     breakfast.appendChild(breakfastHeader);
     breakfast.appendChild(breakfastImage);
@@ -58,7 +58,7 @@ export function menuLoad() {
     const lunchImage = new Image();
     lunchImage.src = lunchIcon;
     lunchImage.classList.add('lunch-image');
-    lunchHeader.classList.add('lunch-header');
+    lunchHeader.classList.add('content-header');
     lunchHeader.textContent = 'Lunch';
     lunch.appendChild(lunchHeader); 
     lunch.appendChild(lunchImage);
@@ -79,7 +79,7 @@ export function menuLoad() {
     const dinnerImage = new Image();
     dinnerImage.src = dinnerIcon;
     dinnerImage.classList.add('dinner-image');
-    dinnerHeader.classList.add('dinner-header');
+    dinnerHeader.classList.add('content-header');
     dinnerHeader.textContent = 'Dinner';
     dinner.appendChild(dinnerHeader);
     dinner.appendChild(dinnerImage); 

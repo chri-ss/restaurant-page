@@ -4,6 +4,7 @@ import {menuLoad} from './menu.js';
 import {servicesLoad} from './services.js';
 import {reviewsLoad} from './reviews.js';
 import {aboutLoad} from './about.js';
+import {contactLoad} from './contact.js';
 import './style.css';
 import './reset.css';
 
@@ -58,4 +59,12 @@ about.addEventListener('click', () => {
         mainContainer.removeChild(mainContainer.firstChild);
     }
     aboutLoad();
+});
+
+contact.addEventListener('click', () => {
+    while(mainContainer.firstChild)
+    {
+        mainContainer.removeChild(mainContainer.firstChild);
+    }
+    contactLoad();
 });
