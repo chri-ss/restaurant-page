@@ -18,9 +18,9 @@ export function reviewsLoad() {
     const quote1 = document.createElement('p');
     const quotee1 = document.createElement('p');
     quotee1.classList.add('quotee');
-    quote1.textContent = 'Good food, welcoming atmosphere and a horses were\
-    well looked after. Bit of an odd smell but you get used to it.'
-    quotee1.textContent = '- Balmin Bellarbree';
+    quote1.textContent = '"Good food, welcoming atmosphere and our horses were\
+    well looked after. Bit of an odd smell but you get used to it."'
+    quotee1.textContent = '- Balmin Bellarbree, Traveller';
     review1.appendChild(quote1);
     review1.appendChild(quotee1);
     
@@ -31,9 +31,9 @@ export function reviewsLoad() {
     const quote2 = document.createElement('p');
     const quotee2 = document.createElement('p');
     quotee2.classList.add('quotee');
-    quote2.textContent = 'Good food, welcoming atmosphere and a horses were\
-    well looked after. Bit of an odd smell but you get used to it.'
-    quotee2.textContent = '- Balmin Bellarbree';
+    quote2.textContent = '"Completely innaccessible. I could not fit through the door. \
+    Patrons ran screaming as I approached. Brilliant outdoor decor however."'
+    quotee2.textContent = '- Harshnag, Frost Giant';
     review2.appendChild(quote2);
     review2.appendChild(quotee2);
     
@@ -44,9 +44,9 @@ export function reviewsLoad() {
     const quote3 = document.createElement('p');
     const quotee3 = document.createElement('p');
     quotee3.classList.add('quotee');
-    quote3.textContent = 'Good food, welcoming atmosphere and a horses were\
-    well looked after. Bit of an odd smell but you get used to it.'
-    quotee3.textContent = '- Balmin Bellarbree';
+    quote3.textContent = '"An honest legitimate establishment. Absolutely wholesome\
+    environment. Bring your family!"';
+    quotee3.textContent = '- Arik Stillmarsh, Vampire';
     review3.appendChild(quote3);
     review3.appendChild(quotee3);
     
@@ -57,9 +57,8 @@ export function reviewsLoad() {
     const quote4 = document.createElement('p');
     const quotee4 = document.createElement('p');
     quotee4.classList.add('quotee');
-    quote4.textContent = 'Good food, welcoming atmosphere and a horses were\
-    well looked after. Bit of an odd smell but you get used to it.'
-    quotee4.textContent = '- Balmin Bellarbree';
+    quote4.textContent = '"Yeah I pay my taxes. Who told you I don\'t?"'
+    quotee4.textContent = '- Nalaskur Thaelond, Owner';
     review4.appendChild(quote4);
     review4.appendChild(quotee4);
     

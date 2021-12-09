@@ -5,6 +5,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'MyOtherFont';
+    src: url('./Kalam-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
 body {
     background: url('./2016_010516_Yawning_Portal_TH.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -23,7 +30,7 @@ body {
     justify-content: center;
     width: 80%;
     font-size: 24px;
-    font-family: MyFont, cursive;
+    font-family: MyOtherFont, cursive;
     margin-left: 20%;
     margin: auto auto auto 20%;
 }
@@ -130,7 +137,7 @@ li:hover {
 
 .breakfast-header, .lunch-header, .dinner-header, .drinks-header, .auction-header,
  .animal-boarding-header , .horseshoeing-header, .reviews-header {
-    padding: 2rem;
+    padding: 3rem;
     font-size: 60px;
     font-weight: bold;
     text-decoration: underline;
@@ -164,10 +171,15 @@ li:hover {
 .review {
     display: flex;
     flex-direction: column;
+    background-color: rgb(184, 147, 106);
+    padding: 1rem;
+    border: 2px solid rgb(36, 19, 0);
+    border-radius: 5px;
     width: 80%;
     gap: 1rem;
 }
 
 .quotee {
     text-align: right;
+    font-size: 20px;
 }
