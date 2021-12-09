@@ -57,7 +57,7 @@ export function reviewsLoad() {
     const quote4 = document.createElement('p');
     const quotee4 = document.createElement('p');
     quotee4.classList.add('quotee');
-    quote4.textContent = '"Yeah I pay my taxes. Who told you I don\'t?"'
+    quote4.textContent = '"Yeah I pay my taxes. Who says I don\'t?"'
     quotee4.textContent = '- Nalaskur Thaelond, Owner';
     review4.appendChild(quote4);
     review4.appendChild(quotee4);
