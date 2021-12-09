@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'MyFont';
-    src: url('./Playball.ttf') format('truetype');
+    src: url('./fonts/Playball.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'MyOtherFont';
-    src: url('./Kalam-Regular.ttf') format('truetype');
+    src: url('./fonts/Kalam-Regular.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
   }
